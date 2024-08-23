@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: hello-kubernetes
-        image: your-dockerhub-username/hello-kubernetes:latest
+        image: f44nboy/hello-kubernetes:latest
         resources:
           limits:
             memory: "128Mi"
